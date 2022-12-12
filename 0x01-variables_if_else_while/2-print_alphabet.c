@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - Write a program that prints the alphabet in lowercase, followed by a new line
  *
@@ -6,4 +6,14 @@
 */
 int main(void)
 {
-	int digit1, digit2;
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
+}
